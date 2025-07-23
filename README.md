@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 💬 Zync - A Real-Time Chat Application
+=======
+💬 Chatters - A Real-Time Chat Application
+>>>>>>> d798e561042faa0dfd52ceb889c90ca8a4242225
 <p align="center">
 <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="Version">
 <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
@@ -12,7 +16,7 @@
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS">
 </p>
 
-Chatters is a sleek and intuitive real-time chat application that allows you to connect with friends, family, and colleagues instantly. With a modern and user-friendly interface, staying in touch has never been easier.
+Zync is a sleek and intuitive real-time chat application that allows you to connect with friends, family, and colleagues instantly. With a modern and user-friendly interface, staying in touch has never been easier.
 
 <p align="center">
 <img src="https://placehold.co/800x400/334155/E2E8F0?text=Chatters+App+Screenshot" alt="Chatters Application Screenshot"/>
@@ -136,6 +140,12 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 📫 Contact
+<<<<<<< HEAD
 Shashwata Mishra - mishrashashwata32@gmail.com
 
 Project Link: https://github.com/shashwata32/chat-application
+=======
+Shashwata Saha - shashwata.saha32@gmail.com
+
+Project Link: https://github.com/shashwata32/chat-application
+>>>>>>> d798e561042faa0dfd52ceb889c90ca8a4242225
