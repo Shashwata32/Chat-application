@@ -124,16 +124,16 @@ console.log(inputData);
                         <label className="cursor-pointer label flex gap-2">
                         <span className="label-text font-semibold text-gray-950">Male</span>
                         <input 
-                        onChange={()=>selectGender('Male')}
-                        checked={inputData.gender === 'Male'}
+                        onChange={()=>selectGender('male')}
+                        checked={inputData.gender === 'male'}
                         type='checkbox' 
                         className="checkbox checkbox-info"/>
                         </label>
                         <label className="cursor-pointer label flex gap-2">
-                        <span className="label-text font-semibold text-gray-950">Female</span>
+                        <span className="label-text font-semibold text-gray-950">female</span>
                         <input 
-                        checked={inputData.gender === 'Female'}
-                        onChange={()=>selectGender('Female')}
+                        checked={inputData.gender === 'female'}
+                        onChange={()=>selectGender('female')}
                         type='checkbox' 
                         className="checkbox checkbox-info"/>
                         </label>
@@ -156,7 +156,7 @@ console.log(inputData);
                                     className='text-gray-950 
                             font-bold underline cursor-pointer
                              hover:text-green-950'>
-                                    Login Now!
+                                    Login Now!!
                                 </span>
                             </Link>
                         </p>
