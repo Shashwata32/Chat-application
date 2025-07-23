@@ -82,9 +82,9 @@ const MessageContainer = ({ onBackUser }) => {
         <div className='md:min-w-[500px] h-[99%] flex flex-col py-2'>
         {selectedConversation === null ? (
           <div className='flex items-center justify-center w-full h-full'>
-            <div className='px-4 text-center text-2xl text-gray-950 font-semibold 
+            <div className='px-4 text-center text-2xl text-white font-semibold 
             flex flex-col items-center gap-2'>
-              <p className='text-2xl'>Welcome!!👋 {authUser.username}😉</p>
+              <p className='text-2xl'>Welcome! {authUser.username}</p>
               <p className="text-lg">Select a chat to start messaging</p>
               <TiMessages className='text-6xl text-center' />
             </div>
@@ -103,7 +103,7 @@ const MessageContainer = ({ onBackUser }) => {
                   <div className='self-center'>
                     <img className='rounded-full w-6 h-6 md:w-10 md:h-10 cursor-pointer' src={selectedConversation?.profilepic} />
                   </div>
-                  <span className='text-gray-950 self-center text-sm md:text-xl font-bold'>
+                  <span className='text-white self-center text-sm md:text-xl font-bold'>
                     {selectedConversation?.username}
                   </span>
                 </div>
@@ -125,12 +125,12 @@ const MessageContainer = ({ onBackUser }) => {
                 <div className='text-white' key={message?._id} ref={lastMessageRef}>
                   <div className={`chat ${message.senderId === authUser._id ? 'chat-end' : 'chat-start'}`}>
                     <div className='chat-image avatar'></div>
-                    <div className={`chat-bubble ${message.senderId === authUser._id ? 'bg-sky-600' : ''
+                    <div className={`chat-bubble ${message.senderId === authUser._id ? 'bg-sky-600 text-white' : ''
 
                     }`}>
                       {message?.message}
                     </div>
-                    <div className="chat-footer text-[10px] opacity-80">
+                    <div className="chat-footer text-[10px] opacity-80 text-white">
                       {new Date(message?.createdAt).toLocaleDateString('en-IN')}
                       {new Date(message?.createdAt).toLocaleTimeString('en-IN', { hour: 'numeric', minute:
                          'numeric' })}
@@ -146,7 +146,7 @@ const MessageContainer = ({ onBackUser }) => {
               <button type='submit'>
                 {sending ? <div className='loading loading-spinner'></div>:
                 <IoSend size={25}
-                className='text-sky-700 cursor-pointer rounded-full bg-gray-800 w-10 h-auto p-1'/>
+                className='text-sky-700 cursor-pointer rounded-full bg-gray-100 w-10 h-auto p-1'/>
                 }
               </button>
             </div>

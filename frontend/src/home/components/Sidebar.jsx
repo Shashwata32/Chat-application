@@ -129,7 +129,7 @@ const Sidebar = ({ onSelectUser }) => {
                         onChange={(e) => setSearchInput(e.target.value)}
                         type='text'
                         className='px-4 w-auto bg-transparent outline-none rounded-full'
-                        placeholder='search user'
+                        placeholder='Search User'
                     />
                     <button className='btn btn-circle bg-sky-700 hover:bg-gray-950'>
                         <FaSearch />
@@ -224,10 +224,10 @@ const Sidebar = ({ onSelectUser }) => {
                         </div>
                     </div>
                     <div className='mt-auto px-1 py-1 flex'>
-                        <button onClick={handelLogOut} className='hover:bg-red-600  w-10 cursor-pointer hover:text-white rounded-lg'>
+                        <button onClick={handelLogOut} className='hover:bg-red-600  w-10 cursor-pointer hover:text-white rounded-lg text-white'>
                             <BiLogOut size={25} />
                         </button>
-                        <p className='text-sm py-1'>Logout</p>
+                        <p className='text-sm py-1 text-white'>Logout</p>
                     </div>
                 </>
             )}

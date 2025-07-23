@@ -41,14 +41,14 @@ const Login = () => {
         }
     }
     return (
-        <div className='flex flex-col items-center justify-center mix-w-full mx-auto'>
+        <div className='flex flex-col items-center justify-center mix-w-full mx-auto w-[35%]'>
             <div className='w-full p-6 rounded-lg shadow-lg
           bg-gray-400 bg-clip-padding
            backderop-filter backdrop-blur-lg bg-opacity-0'>
-                <h1 className='text-3xl font-bold text-center text-gray-300'>Login
-                    <span className='text-gray-950'> Chatters </span>
+                <h1 className='text-3xl font-bold text-center text-gray-950'>Login
+                    {/* <span className='text-gray-950'> Chatters </span> */}
                     </h1>
-                    <form onSubmit={handelSubmit} className='flex flex-col text-black'>
+                    <form onSubmit={handelSubmit} className='flex flex-col text-white'>
                         <div>
                             <label className='label p-2' >
                                 <span className='font-bold text-gray-950 text-xl label-text'>Email :</span>
