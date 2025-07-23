@@ -130,7 +130,7 @@ console.log(inputData);
                         className="checkbox checkbox-info"/>
                         </label>
                         <label className="cursor-pointer label flex gap-2">
-                        <span className="label-text font-semibold text-gray-950">female</span>
+                        <span className="label-text font-semibold text-gray-950">Female</span>
                         <input 
                         checked={inputData.gender === 'female'}
                         onChange={()=>selectGender('female')}
@@ -151,12 +151,12 @@ console.log(inputData);
                     <div className='pt-2'>
                         <p className='text-sm font-semibold
                          text-gray-800'>
-                            Dont have an Acount ? <Link to={'/login'}>
+                            Dont have an Account? <Link to={'/login'}>
                                 <span
                                     className='text-gray-950 
                             font-bold underline cursor-pointer
                              hover:text-green-950'>
-                                    Login Now!!
+                                    Login Now!
                                 </span>
                             </Link>
                         </p>

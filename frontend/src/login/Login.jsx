@@ -84,7 +84,7 @@ const Login = () => {
                     <div className='pt-2'>
                         <p className='text-sm font-semibold
                          text-gray-800'>
-                            Don't have an Acount ? <Link to={'/register'}>
+                            Don't have an Account? <Link to={'/register'}>
                                 <span
                                     className='text-gray-950 
                             font-bold underline cursor-pointer
