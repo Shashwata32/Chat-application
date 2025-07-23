@@ -136,6 +136,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 📫 Contact
-Shashwata Saha - shashwata.saha32@gmail.com
+Shashwata Mishra - mishrashashwata32@gmail.com
 
 Project Link: https://github.com/shashwata32/chat-application
